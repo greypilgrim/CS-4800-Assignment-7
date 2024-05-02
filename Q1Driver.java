@@ -60,26 +60,5 @@ public class Q1Driver {
             }
         }
         System.out.println("\n" + changedPhrase);
-
-        /*document.addCharacter(char1);
-        document.addCharacter(char2);
-        document.addCharacter(char3);
-        document.addCharacter(char4);
-
-        try (PrintWriter writer = new PrintWriter("mydocument.txt")) {
-            writer.write(document.serialize());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        try (BufferedReader reader = new BufferedReader(new FileReader("mydocument.txt"))) {
-            String serializedData;
-            while ((serializedData = reader.readLine()) != null) {
-                Character character = Character.deserialize(serializedData, characterFactory);
-                character.printInfo();
-            }
-        } catch (IOException e) {
-        e.printStackTrace();
-        }*/
     }
 }
